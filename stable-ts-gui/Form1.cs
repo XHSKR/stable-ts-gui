@@ -17,8 +17,9 @@ namespace stable_ts_gui
         public Form1()
         {
             InitializeComponent();
-            comboBox1.Text = "Japanese";
-            comboBox2.Text = "medium"; this.AllowDrop = true;
+            comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboBox2.DropDownStyle = ComboBoxStyle.DropDownList;
+            this.AllowDrop = true;
             this.FormBorderStyle = FormBorderStyle.FixedToolWindow;
             this.Resize += new EventHandler(Form1_Resize);
         }
