@@ -13,7 +13,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ```
 choco install ffmpeg
 ```
-
 # Setup
 ```
 pip install -U stable-ts
