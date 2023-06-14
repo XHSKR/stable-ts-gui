@@ -9,10 +9,17 @@ Simple gui version of [stable-ts](https://github.com/jianfch/stable-ts)
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
+
 3. FFmpeg
 ```
 choco install ffmpeg
 ```
+
+4. PyTorch
+```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+```
+
 # Setup
 ```
 pip install -U stable-ts
