@@ -3,7 +3,7 @@ Simple gui version of [stable-ts](https://github.com/jianfch/stable-ts)
 
 ![](screenshot.png)
 # Prerequisites
-1. [Python 3.10.x](https://www.python.org/downloads/release/python-31012/)
+1. [Python 3.10.x](https://www.python.org/downloads/release/python-31011/)
 
 2. Chocolatey (throw it at powershell.exe)
 ```
