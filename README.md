@@ -20,12 +20,12 @@ choco install ffmpeg
 pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 ```
 
-# Setup
+5. openai-whisper
 ```
-pip install -U stable-ts
+pip install -U openai-whisper
 ```
 
-To install the latest commit:
+6. stable-ts
 ```
 pip install -U git+https://github.com/jianfch/stable-ts.git
 ```
